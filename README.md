@@ -23,11 +23,11 @@ What the Program Does
   - Displays a clear summary of the medical invoice.
 
   - In-Patient Charges Include Number of days stayed in the hospital, Daily rate,
-Hospital service charges (lab tests, etc.), Medication charges.
+    Hospital service charges (lab tests, etc.), Medication charges.
 
   - Out-Patient Charges Include Hospital service charges, Medication charges.
 
-- Programming Concepts Used
+Programming Concepts Used
   - Functions and
     function prototypes
 
@@ -39,7 +39,7 @@ Hospital service charges (lab tests, etc.), Medication charges.
 
   -Modular code organization
 
-- Why This Project
+Why This Project
 
   - This project was created to practice core C++ programming concepts such as functions, input validation, and control flow.
     It demonstrates how a real-world problem can be solved using structured and readable code.
