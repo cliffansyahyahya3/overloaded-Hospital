@@ -37,7 +37,7 @@ Programming Concepts Used
 
   - Basic user input and output
 
-  -Modular code organization
+  - Modular code organization
 
 Why This Project
 
