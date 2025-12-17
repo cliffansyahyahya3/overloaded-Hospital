@@ -5,28 +5,42 @@ DEMO
 
 
 
+Hospital Billing System (C++)
 
+This is a simple C++ console program that calculates hospital charges for patients. The program allows the user to choose whether they are an in-patient or an out-patient, 
+then asks for the required billing information and displays a medical invoice.
 
+What the Program Does
 
+  - Asks the user if they are an in-patient or out-patient.
 
-Description: This program computes and displays the charges for a patient hospital stay.
-user input for patient if they are in-patient(stay overnight) 
-or out-patient (in and out of hospital same day, not overnight)
+  - Collects billing information based on the patient type.
 
-if in-patient, user input for
-a. The number of days spent in the hospital
-b. The daily rate
-c. Charges for hospital services (lab tests, etc.)
-d. Hospital medication charges.
+  - Ensures all numeric inputs are valid and not less than zero.
 
-if out-patient, user input for
-a. Charges for hospital services (lab tests, etc.)
-b. Hospital medication charges.
+  - Calculates the total hospital charges.
 
-Use a single, separate function to validate that no input is less than zero. If it is, it should
-be re-entered before being returned. (while loop)
+  - Displays a clear summary of the medical invoice.
 
-Once the required data has been input and validated, the program should use two
-overloaded functions to calculate the total charges. One of the functions should accept
-arguments for the in-patient data, while the other function accepts arguments for out-
-patient data. Both functions should return the total charges.
+  - In-Patient Charges Include Number of days stayed in the hospital, Daily rate,
+Hospital service charges (lab tests, etc.), Medication charges.
+
+  - Out-Patient Charges Include Hospital service charges, Medication charges.
+
+- Programming Concepts Used
+  - Functions and
+    function prototypes
+
+  - Input validation using loops
+
+  - Conditional statements (if / else)
+
+  - Basic user input and output
+
+  -Modular code organization
+
+- Why This Project
+
+  - This project was created to practice core C++ programming concepts such as functions, input validation, and control flow.
+    It demonstrates how a real-world problem can be solved using structured and readable code.
+
